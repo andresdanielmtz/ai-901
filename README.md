@@ -16,6 +16,13 @@ uv sync
 
 `uv sync` installs the right Python version (3.14+) if needed, creates `.venv` and installs all dependencies from `uv.lock`.
 
+Then set up your config and sign in to Azure:
+
+```sh
+cp .env.example .env   # fill in your endpoint and agent name
+az login
+```
+
 To run:
 
 ```sh
