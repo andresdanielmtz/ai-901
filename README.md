@@ -4,6 +4,8 @@
 
 Mostly used for archive purposes. Definitely not meant to be used as study resources since the cert is bound to frequently change.
 
+**For the record, the name of the agent used within this study is `andresgpt`**
+
 ### How to install
 
 Requires [uv](https://docs.astral.sh/uv/getting-started/installation/).
