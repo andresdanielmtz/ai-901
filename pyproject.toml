@@ -5,6 +5,7 @@ description = "Study repository for the AI-901 cert"
 requires-python = ">=3.14"
 dependencies = [
     "azure-ai-projects>=2.11.0",
+    "azure-ai-textanalytics>=5.4.0",
     "azure-identity>=1.27.0",
     "openai>=3.52.0",
     "python-dotenv>=1.2.4",
