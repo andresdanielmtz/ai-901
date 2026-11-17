@@ -4,8 +4,9 @@
 
 Mostly used for archive purposes. Definitely not meant to be used as study resources since the cert is bound to frequently change.
 
-**For the record, the name of the agent used within this study is `andresgpt`**
+**For the record, the name of the agent used within this study is `andresgpt`**. Feel free to change it to whatever name you'd prefer (when you clone this repo).
 
+**This repository also asumes you have an .env, please look at `env.example` for it.**
 ### How to install
 
 Requires [uv](https://docs.astral.sh/uv/getting-started/installation/).
