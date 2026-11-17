@@ -27,6 +27,7 @@ with (
     response = openai_client.responses.create(
         conversation=conversation.id,
         input=[{"role": "user", "content": user_message}],
+        extra_body={'agent': {'name"': agent_name, 'type': 'agent_reference'}}
     )
 
     print(f"Response output: {response.output_text}")
