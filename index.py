@@ -8,7 +8,7 @@ load_dotenv()  # reads .env in the project root (see .env.example)
 
 endpoint = os.environ["AZURE_AI_PROJECT_ENDPOINT"]
 agent_name = os.environ["AZURE_AI_AGENT_NAME"]
-user_message = "Hi andresgpt"
+user_message = "Hi andresgpt" # name example
 
 with (
     DefaultAzureCredential() as credential,
@@ -19,6 +19,7 @@ with (
     ) as project_client,
 ):
     # Bind the OpenAI client to the existing agent endpoint.
+    # ?? It is actually a convention to use openai_client, as per the documentation
     openai_client = project_client.get_openai_client(agent_name=agent_name)
 
     # GitHub Copilot preview agents require a conversation for every Responses turn.
